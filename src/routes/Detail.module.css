@@ -1,0 +1,41 @@
+.container {
+	width: 1280px;
+	margin: 0 auto;
+}
+
+.title {
+	color: white;
+	text-align: center;
+}
+.contents_wrap {
+	display: flex;
+	justify-content: center;
+}
+.contents_img {
+	width: 360px;
+}
+.contents {
+	flex-basis: 40%;
+	margin-left: 24px;
+	display: flex;
+	flex-direction: column;
+}
+.genres_wrap {
+	padding: 0;
+	width: 100%;
+	list-style: none;
+	display: flex;
+	align-items: center;
+	justify-content: flex-start;
+	flex-wrap: wrap;
+}
+.genre {
+	margin-right: 8px;
+}
+.explanation {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	display: -webkit-box;
+	-webkit-line-clamp: 15;
+	-webkit-box-orient: vertical;
+}
