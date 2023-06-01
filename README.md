@@ -1,6 +1,6 @@
-# ReactJS - 영화 웹 서비스
+# ReactJS - 🎬영화 웹 서비스
 
-상태: In progress
+<br/>
 
 ## React Element
 
@@ -30,6 +30,8 @@ ReactDOM.render(해당 요소, 부모요소) : react element를 HTML 요소로 �
 ```jsx
 ReactDOM.render(container, root);
 ```
+
+<br/>
 
 ## JSX
 
@@ -68,6 +70,7 @@ ReactDOM.render(<Container />, root);
 ```
 
 리액트가 아닌 경우, 일반 자바스크립트를 쓴 브라우저는 노드정보가 바뀔때마다 노드트리를 처음부터 다시 생성함 . 그러나 리액트는 Virtual DOM을 써서 달라진 부분만 수정해서 보여줌.
+<br/>
 
 ## React.useState(초기값)
 
@@ -150,6 +153,8 @@ function App() {
 	);
 }
 ```
+
+<br/>
 
 ## Props
 
@@ -243,6 +248,7 @@ Btn.**propTypes** = {
 6. `code .`
 7. yarn.lock 파일 삭제하기(없을수도 있음)
 8. `npm i prop-types`
+   <br/>
 
 ## CSS Module
 
@@ -269,6 +275,8 @@ export default function Button() {
 				<button class={**styles.btn**}>Click Me</button>
 ```
 
+<br/>
+
 ## useEffect(()⇒{},[])
 
 state가 변경될 때 마다 컴포넌트는 리렌더링된다. 하지만 항상 렌더링 될 필요가 없는 코드가 있을 수 있다. 그럴 때는 useEffect()를 사용!
@@ -294,6 +302,7 @@ index.js에 React.StrictMode태그는 코드의 문제를 감지하고 경고하
 ### 참고 문서
 
 [16. useEffect를 사용하여 마운트/언마운트/업데이트시 할 작업 설정하기 · GitBook](https://react.vlpt.us/basic/16-useEffect.html)
+<br/>
 
 ## Coin Tracker 만들기
 
@@ -372,6 +381,7 @@ export default function CoinTracker() {
 ### **참고 문서**
 
 [[html] 셀렉트박스 기본값에 관해](https://euntori7.tistory.com/329)
+<br/>
 
 ## React-Router
 
@@ -505,6 +515,7 @@ console.log(params); //{ id : 51899 }
 ### 참고 문서
 
 [Feature Overview v6.11.2](https://reactrouter.com/en/main/start/overview#client-side-routing)
+<br/>
 
 ## 배포하기
 
@@ -516,11 +527,9 @@ console.log(params); //{ id : 51899 }
 
    ```json
    {
-   	...
    	"scripts" : {
-   		...
    		“deplay” : “gh-pages -d build”,
-   		"predeplay" : "npm run build
+   		"predeplay" : "npm run build"
    	},
    	“homepage”: “https://<깃허브username>.github.io/<레포지이름>”,
    }
@@ -538,3 +547,7 @@ console.log(params); //{ id : 51899 }
 왜냐하면 React.js가 코드를 깨뜨리지 않고 새로운 기능을 추가하여 업데이트했기 때문.
 
 하지만 예전 방식도 작동하기 때문에 다른 사람의 코드를 수정해야 될때 과거 버전을 맞닥뜨릴수 있으므로 공부하는 것도 not bad! ⇒ class로 만든 컴포넌트
+
+## 결과물
+
+<img src="https://github.com/kittty0520/movie-web-service/assets/105909450/190b99f8-8ae1-4e32-8008-9940de426c6b" alt="영화웹">
