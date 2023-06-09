@@ -9,10 +9,13 @@ import './App.css';
 import Home from './routes/Home';
 import Detail from './routes/Detail';
 
-const router = createBrowserRouter([
-	{ path: '/', element: <Home /> },
-	{ path: '/movie/:id', element: <Detail /> },
-]);
+const router = createBrowserRouter(
+	[
+		{ path: '/', element: <Home /> },
+		{ path: '/movie/:id', element: <Detail /> },
+	],
+	{ basename: '/movie-web-service' }
+);
 
 function App() {
 	return <RouterProvider router={router} />;
