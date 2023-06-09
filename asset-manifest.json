@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/kittty0520.github.io/movie-web-service/static/css/main.1b38eade.css",
+    "main.js": "/kittty0520.github.io/movie-web-service/static/js/main.f848b71b.js",
+    "static/js/787.5efd5708.chunk.js": "/kittty0520.github.io/movie-web-service/static/js/787.5efd5708.chunk.js",
+    "index.html": "/kittty0520.github.io/movie-web-service/index.html",
+    "main.1b38eade.css.map": "/kittty0520.github.io/movie-web-service/static/css/main.1b38eade.css.map",
+    "main.f848b71b.js.map": "/kittty0520.github.io/movie-web-service/static/js/main.f848b71b.js.map",
+    "787.5efd5708.chunk.js.map": "/kittty0520.github.io/movie-web-service/static/js/787.5efd5708.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1b38eade.css",
+    "static/js/main.f848b71b.js"
+  ]
+}
