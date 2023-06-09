@@ -2,7 +2,7 @@
 	"name": "movie-web-service",
 	"version": "0.1.0",
 	"private": true,
-	"homepage": "https://kittty0520.github.io/c/",
+	"homepage": "https://kittty0520.github.io/movie-web-service/",
 	"dependencies": {
 		"@testing-library/jest-dom": "^5.16.5",
 		"@testing-library/react": "^13.4.0",
